@@ -20,7 +20,7 @@ Case 1: 16
 Case 2: 100
 */
 
-package com.sebastian.maratones.ejercicio1;
+package com.sebastian.maratones.ejercicios;
 
 import java.util.Scanner;
 

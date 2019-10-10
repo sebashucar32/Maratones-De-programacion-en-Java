@@ -1,10 +1,11 @@
 package metodosdeordenamiento;
 
-class MetodoBurbuja
+
+public class Burbuja 
 {
 	private int vector[] = new int[8];
 	
-	public MetodoBurbuja(int vector[])
+	public Burbuja(int vector[])
 	{
 		this.vector = vector;
 	}
@@ -38,26 +39,5 @@ class MetodoBurbuja
 		for(int i : vector) {
 			System.out.print(i + " ");
 		}
-	}
-}
-
-public class Burbuja 
-{
-	public static void main(String[] args) 
-	{
-		int vector[] = new int[10];
-		
-		for (int i = 0; i < vector.length; i++) {
-			vector[i] = (int)(Math.random()*(100));
-		}
-		
-		for (int i = 0; i < vector.length; i++) {
-			System.out.print(vector[i] + " ");
-		}
-
-		System.out.println();
-		MetodoBurbuja burbuja = new MetodoBurbuja(vector);
-		burbuja.solucionMetodoBurbuja();
-		burbuja.imprimirVectorOrdenado(vector);
 	}
 }

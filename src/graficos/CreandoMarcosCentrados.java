@@ -8,6 +8,8 @@ import javax.swing.JFrame;
 
 class MarcoCentrado extends JFrame
 {
+	private static final long serialVersionUID = 1L;
+
 	public MarcoCentrado() {
 		Toolkit miPantalla = Toolkit.getDefaultToolkit();
 		Dimension tamanoPantalla = miPantalla.getScreenSize();
